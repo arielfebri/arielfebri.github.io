@@ -1,0 +1,108 @@
+*,
+html {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #9db2bf;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.navbar {
+  background-color: #27374d;
+  display: flex;
+  padding: 15px;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+}
+.navbar_kiri {
+  display: flex;
+  flex-direction: row;
+  padding: 15px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 800;
+  font-size: 1.5em;
+}
+.nama_depan {
+  color: white;
+  font-weight: 700;
+}
+.nama_belakang {
+  color: crimson;
+  padding-left: 4px;
+  font-weight: 400;
+}
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu > li {
+  list-style-type: none;
+  padding: 15px;
+}
+.menu > li > a {
+  text-decoration: none;
+  color: white;
+  padding: 5px 0px;
+  transition: all;
+  transition-duration: 300ms;
+  border-bottom: 1px solid rgba(255, 255, 255, 0);
+}
+.menu > li > a:hover {
+  color: crimson;
+  border-bottom: 2px solid crimson;
+}
+.contack {
+  margin-top: 150px;
+  width: 500px;
+  margin-left: 30%;
+  border-radius: 5px;
+  border: 2px solid black;
+  background-color: #fff;
+  padding: 20px;
+}
+h2 {
+  margin: 0;
+  font-size: 30px;
+  text-align: center;
+}
+.wrapper {
+  margin-bottom: 20px;
+}
+.form-input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 2px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+textarea {
+  height: 100px;
+}
+button {
+  background-color: #333;
+  padding: 12px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  align-items: center;
+}
+button:hover {
+  background-color: #526d82;
+}
+button a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #fff;
+}
